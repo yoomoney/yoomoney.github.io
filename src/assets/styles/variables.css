@@ -1,0 +1,34 @@
+html {
+	/* Font sizes */
+	--size-typo-xxs: 13px;
+	--size-typo-xs: 15px;
+	--size-typo-s: 18px;
+	--size-typo-m: 20px;
+	--size-typo-l: 22px;
+	--size-typo-xl: 32px;
+	--size-typo-xxl: 38px;
+	--size-typo-xxxl: 40px;
+	--size-typo-xxxxl: 48px;
+	--size-typo-xxxxxl: 50px;
+
+	/* Space sizes */
+	--space-xxxxl: 200px;
+	--space-xxxl: 120px;
+	--space-xxl: 80px;
+	--space-xl: 60px;
+	--space-l: 45px;
+	--space-m: 40px;
+	--space-s: 30px;
+	--space-xs: 25px;
+	--space-xxs: 16px;
+	--space-xxxs: 8px;
+
+	/* Colors */
+	--color-typo-link: #5F94DC;
+	--color-typo-inverse: #FFFFFF;
+
+	--color-bg-dark: #080809;
+	--color-bg-card: #0E1116;
+	--color-bg-badge: #0F30E0;
+	--color-bg-brand: #8B3FFD;
+}
