@@ -8,7 +8,7 @@ import '../../assets/styles/variables.css';
 import {Props} from './types';
 
 const StyledPage = styled.div`
-	padding: var(--space-xl) var(--space-xxxl);
+	padding: var(--space-l) var(--space-xxxl);
 	max-width: 1200px;
 	margin: 0 auto;
 `;

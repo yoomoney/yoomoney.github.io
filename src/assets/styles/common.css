@@ -4,29 +4,8 @@ html, body {
 }
 
 body {
-	background-color: var(--color-bg-dark);
-	color: var(--color-typo-inverse);
-}
-
-h1 {
-	font-size: var(--size-typo-xxxxxl);
-	margin: 0 0 var(--space-xl);
-	line-height: 62px;
-	font-weight: 700;
-}
-
-h2 {
-	font-size: var(--size-typo-xxxxxl);
-	margin: 0 0 var(--space-xxl);
-	line-height: 48px;
-	font-weight: 400;
-}
-
-h3 {
-	font-size: var(--size-typo-xxxl);
-	margin: 0 0 var(--space-m);
-	line-height: 48px;
-	font-weight: 400;
+	background-color: var(--color-bg-white);
+	color: var(--color-typo-black);
 }
 
 p {

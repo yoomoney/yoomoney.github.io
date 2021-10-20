@@ -10,6 +10,7 @@ html {
 	--size-typo-xxxl: 40px;
 	--size-typo-xxxxl: 48px;
 	--size-typo-xxxxxl: 50px;
+	--size-typo-xxxxxxl: 62px;
 
 	/* Space sizes */
 	--space-xxxxl: 200px;
@@ -25,10 +26,40 @@ html {
 
 	/* Colors */
 	--color-typo-link: #5F94DC;
-	--color-typo-inverse: #FFFFFF;
+	--color-typo-black: #000;
+	--color-typo-white: #FFF;
 
-	--color-bg-dark: #080809;
-	--color-bg-card: #0E1116;
-	--color-bg-badge: #0F30E0;
+	--color-bg-white: #FFF;
+	--color-bg-light: #F1F6FF;
 	--color-bg-brand: #8B3FFD;
+
+	/* Other */
+	--snippet-width-m: 550px;
+	--snippet-width-l: 650px;
+	--snippet-width-auto: auto;
+}
+
+/* Breakpoints and variables */
+@media screen and (max-width: 965px) {
+	html {
+		/* Font sizes */
+	--size-typo-l: 20px;
+	--size-typo-xxxxxl: 50px;
+
+	/* Space sizes */
+	--space-xxxl: 50px;
+	--space-xxxxl: 100px;
+
+	/* Other */
+	--snippet-width-m: auto;
+	--snippet-width-l: auto;
+	}
+}
+
+/* Breakpoints and variables */
+@media screen and (max-width: 965px) {
+	html {
+		/* Font sizes */
+		--size-typo-l: 18px;
+	}
 }

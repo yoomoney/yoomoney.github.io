@@ -11,6 +11,10 @@ const StyledCardsList = styled.ul`
 	flex-wrap: wrap;
 	gap: var(--space-xs);
 	list-style-type: none;
+
+	@media screen and (max-width: 965px) {
+		justify-content: center;
+	}
 `;
 
 export const ProjectCardsList = () => (

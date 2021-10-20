@@ -17,9 +17,9 @@ const StyledBadgeList = styled.ul`
 
 export const BadgeList = ({items}: Props) => (
 	<StyledBadgeList>
-		{items.map((name, key) => (
+		{items.map(({name, url}, key) => (
 			<li key={key}>
-				<Badge>{name}</Badge>
+				<Badge url={url}>{name}</Badge>
 			</li>
 		))}
 	</StyledBadgeList>

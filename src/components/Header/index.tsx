@@ -1,43 +1,33 @@
 import * as React from 'react';
-import styled from 'styled-components';
 import {StaticImage} from 'gatsby-plugin-image';
+
+import {StyledHeader, StyledHeaderWrap, StyledControl, StyledNav, StyledMenuItem} from './styled';
 
 import {MENU_ITEMS} from './constants';
 
-const StyledHeader = styled.header`
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	margin-bottom: var(--space-xxxxl);
-`;
-
-const StyledNav = styled.nav`
-	display: flex;
-`;
-
-const StyledMenuItem = styled.a`
-	color: var(--color-typo-inverse);
-	font-size: var(--size-typo-s); 
-	margin: 0 var(--space-s);
-`;
-
 export const Header = () => {
+	const [showItems, setShowItems] = React.useState(false);
+
 	return (
 		<StyledHeader>
-			<StaticImage
-				src='../../assets/images/iomoney.png'
-				alt='YooMoney'
-				width={190}
-				layout='fixed'
-				style={{overflow: 'visible'}}
-			/>
-			<StyledNav>
+			<StyledHeaderWrap>
+				<StaticImage
+					width={190}
+					alt='YooMoney'
+					layout='fixed'
+					placeholder='none'
+					style={{overflow: 'visible'}}
+					src='../../assets/images/iomoney.png'
+				/>
+				<StyledControl showItems={showItems} onClick={() => setShowItems(!showItems)}/>
+			</StyledHeaderWrap>
+			<StyledNav showItems={showItems}>
 				{
 					MENU_ITEMS.map(({id, text}, key) => {
 						const href = `#${id}`;
 
 						return (
-							<StyledMenuItem href={href} key={key}>
+							<StyledMenuItem href={href} key={key} showItems={showItems}>
 								{text}
 							</StyledMenuItem>
 						);

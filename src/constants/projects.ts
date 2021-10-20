@@ -9,7 +9,7 @@ export const ProjectList = [
 	},
 	{
 		name: 'yookassa-sdk-php',
-		description: 'PHP SDK для YooKassa Payments API.'
+		description: 'PHP SDK для интеграции с YooKassa Payments API.'
 	},
 	{
 		name: 'mobile-analytics-chart-swift',
@@ -21,6 +21,6 @@ export const ProjectList = [
 	},
 	{
 		name: 'mobile-analytics-chart-swift',
-		description: 'DSL для создания дашбордов Grafana'
+		description: 'DSL для создания дашбордов в Grafana'
 	}
 ];

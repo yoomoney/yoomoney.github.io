@@ -6,7 +6,7 @@ import {Props} from './types';
 const StyledButton = styled.a`
 	display: inline-block;
 	font-size: var(--size-typo-m); 
-	color: var(--color-typo-inverse);
+	color: var(--color-typo-white);
 	border-radius: var(--space-xxxs);
 	line-height: var(--size-typo-xxxl);
 	background-color: var(--color-bg-brand);

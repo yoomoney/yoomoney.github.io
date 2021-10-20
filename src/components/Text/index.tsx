@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import {Props} from './types';
 
 const StyledText = styled.p<{size?: Props['size'], indent?: Props['indent']}>`
-	color: var(--color-typo-inverse);
+	color: var(--color-typo-black);
 	line-height: var(--size-typo-xl); 
 	font-size: var(--size-typo-${({size}) => size});
 	margin-bottom: ${({indent}) => indent ? `var(--space-${indent})` : '0' };
