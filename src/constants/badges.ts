@@ -1,7 +1,7 @@
 export const ToolsList = [
 	{
 		name: 'IOS',
-		url: '#123'
+		url: ''
 	},
 	{
 		name: 'Android',
