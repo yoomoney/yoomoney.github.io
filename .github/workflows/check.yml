@@ -14,5 +14,4 @@ jobs:
         with:
           access-token: ${{ secrets.BOT_TOKEN }}
           deploy-branch: gh-pages
-          gatsby-args: --prefix-paths
           skip-publish: true
