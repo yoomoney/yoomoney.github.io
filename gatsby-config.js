@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/yoomoney.github.io",
   siteMetadata: {
     siteUrl: "https://opensource.yoomoney.ru/",
     title: "YooMoney GitHub Landing",
