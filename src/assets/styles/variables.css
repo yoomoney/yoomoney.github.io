@@ -1,0 +1,65 @@
+html {
+	/* Font sizes */
+	--size-typo-xxs: 13px;
+	--size-typo-xs: 15px;
+	--size-typo-s: 18px;
+	--size-typo-m: 20px;
+	--size-typo-l: 22px;
+	--size-typo-xl: 32px;
+	--size-typo-xxl: 38px;
+	--size-typo-xxxl: 40px;
+	--size-typo-xxxxl: 48px;
+	--size-typo-xxxxxl: 50px;
+	--size-typo-xxxxxxl: 62px;
+
+	/* Space sizes */
+	--space-xxxxl: 200px;
+	--space-xxxl: 120px;
+	--space-xxl: 80px;
+	--space-xl: 60px;
+	--space-l: 45px;
+	--space-m: 40px;
+	--space-s: 30px;
+	--space-xs: 25px;
+	--space-xxs: 16px;
+	--space-xxxs: 8px;
+
+	/* Colors */
+	--color-typo-link: #5F94DC;
+	--color-typo-black: #000;
+	--color-typo-white: #FFF;
+
+	--color-bg-white: #FFF;
+	--color-bg-light: #F1F6FF;
+	--color-bg-brand: #8B3FFD;
+
+	/* Other */
+	--snippet-width-m: 550px;
+	--snippet-width-l: 650px;
+	--snippet-width-auto: auto;
+}
+
+/* Breakpoints and variables */
+@media screen and (max-width: 965px) {
+	html {
+		/* Font sizes */
+	--size-typo-l: 20px;
+	--size-typo-xxxxxl: 50px;
+
+	/* Space sizes */
+	--space-xxxl: 50px;
+	--space-xxxxl: 100px;
+
+	/* Other */
+	--snippet-width-m: auto;
+	--snippet-width-l: auto;
+	}
+}
+
+/* Breakpoints and variables */
+@media screen and (max-width: 965px) {
+	html {
+		/* Font sizes */
+		--size-typo-l: 18px;
+	}
+}

@@ -1,0 +1,27 @@
+@font-face {
+	font-family: "Factor IO";
+	src: url("https://static.yoomoney.ru/files-front/fonts/factor-io-regular.woff2") format("woff2"), url("https://static.yoomoney.ru/files-front/fonts/factor-io-regular.woff") format("woff");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Factor IO";
+	src: url("https://static.yoomoney.ru/files-front/fonts/factor-io-medium.woff2") format("woff2"), url("https://static.yoomoney.ru/files-front/fonts/factor-io-medium.woff") format("woff");
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Factor IO";
+	src: url("https://static.yoomoney.ru/files-front/fonts/factor-io-bold.woff2") format("woff2"), url("https://static.yoomoney.ru/files-front/fonts/factor-io-bold.woff") format("woff");
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+}
+
+body {
+	font-family: 'Factor IO', Arial, sans-serif;
+}
