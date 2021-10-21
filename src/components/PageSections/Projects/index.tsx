@@ -8,7 +8,8 @@ import {MenuId, GitHubReposUrl} from '../../../constants';
 
 const SUBLINK = {
 	url: GitHubReposUrl,
-	text: 'Посмотреть все'
+	fullText: 'Посмотреть все',
+	shortText: 'Все',
 };
 
 export const Projects = () => (
