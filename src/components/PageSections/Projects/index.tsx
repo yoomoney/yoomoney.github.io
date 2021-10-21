@@ -4,10 +4,10 @@ import {Title} from '../../Title';
 import {Section} from '../../Section';
 import {ProjectCardsList} from '../../ProjectCardsList';
 
-import {MenuId, GitHubOrgUrl} from '../../../constants';
+import {MenuId, GitHubReposUrl} from '../../../constants';
 
 const SUBLINK = {
-	url: GitHubOrgUrl,
+	url: GitHubReposUrl,
 	text: 'Посмотреть все'
 };
 
