@@ -80,16 +80,16 @@ const StyledTitle = styled.span<{sublink?: Props['sublink'];}>`
 	}
 `;
 
-const StyledSublink = styled.a`
+const StyledSublink = styled.a<{fullText: string; shortText: string;}>`
 	whitespace: nowrap;
 	text-decoration: underline;
 	font-size: var(--size-typo-m);
 
 	&:after {
-		content: 'Посмотреть все 🡕';
+		content: '${({fullText}) => fullText}';
 
 		@media screen and (max-width: 600px) {
-			content: 'Все 🡕';
+			content: '${({shortText}) => shortText}';
 		}
 	}
 
@@ -118,7 +118,12 @@ export const Title = ({id, size, children, sublink}: Props) => {
 			{heading}
 			{
 				sublink
-					? <StyledSublink href={sublink.url} target="_blank" />
+					? <StyledSublink
+							target="_blank"
+							href={sublink.url}
+							fullText={sublink.fullText}
+							shortText={sublink.shortText}
+						/>
 					: null
 			}
 		</StyledTitle>
