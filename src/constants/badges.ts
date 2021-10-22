@@ -1,69 +1,69 @@
 export const ToolsList = [
 	{
 		name: 'IOS',
-		url: ''
+		url: 'https://github.com/yoomoney/yookassa-payments-swift'
 	},
 	{
 		name: 'Android',
-		url: ''
+		url: 'https://github.com/yoomoney/yookassa-android-sdk'
 	},
 	{
 		name: 'PHP',
-		url: ''
+		url: 'https://github.com/yoomoney/yookassa-sdk-php'
 	},
 	{
 		name: 'Python',
-		url: ''
+		url: 'https://github.com/yoomoney/yookassa-sdk-python'
 	}
 ];
 
 export const CMSList = [
 	{
 		name: 'OpenCart 3',
-		url: ''
+		url: 'https://github.com/yoomoney/cms-opencart3'
 	},
 	{
 		name: 'OpenCart 2',
-		url: ''
+		url: 'https://github.com/yoomoney/cms-opencart2'
 	},
 	{
 		name: 'OpenCart 1.5',
-		url: ''
+		url: 'https://github.com/yoomoney/cms-opencart15'
 	},
 	{
 		name: 'PrestaShop',
-		url: ''
+		url: 'https://github.com/yoomoney/cms-prestashop'
 	},
 	{
 		name: 'JoomShopping',
-		url: ''
+		url: 'https://github.com/yoomoney/cms-joomshopping'
 	},
 	{
 		name: 'Drupal 7',
-		url: ''
+		url: 'https://github.com/yoomoney/cms-drupal7'
 	},
 	{
 		name: 'Drupal 8',
-		url: ''
+		url: 'https://github.com/yoomoney/cms-drupal8'
 	},
 	{
 		name: 'HostCMS',
-		url: ''
+		url: 'https://github.com/yoomoney/cms-hostcms'
 	},
 	{
 		name: 'Simpla',
-		url: ''
+		url: 'https://github.com/yoomoney/cms-simpla'
 	},
 	{
 		name: 'MODX Shopkeeper',
-		url: ''
+		url: 'https://github.com/yoomoney/cms-modx-shopkeeper'
 	},
 	{
 		name: 'osCommerce',
-		url: ''
+		url: 'https://github.com/yoomoney/cms-oscommerce'
 	},
 	{
 		name: 'WooCommerce',
-		url: ''
+		url: 'https://plugins.svn.wordpress.org/yookassa/trunk/'
 	}
 ];
